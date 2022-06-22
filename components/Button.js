@@ -1,7 +1,7 @@
 import { TouchableOpacity, View, Text } from 'react-native'
 import React from 'react'
 import { COLORS, SIZES, FONTS, SHADOWS } from '../constants'
-import { Image } from 'react-native-web'
+import { Image } from 'react-native'
 
 export const CircleButton = ({ imgUrl, handlePress, ...props }) => {
   return (
